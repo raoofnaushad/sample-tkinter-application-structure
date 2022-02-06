@@ -51,6 +51,8 @@ class HomePage(tk.Frame):
         label = tk.Label(self, text="Home Page", font=('Times', '20'))
         label.pack(pady=0,padx=0)
 
+        ## ADD CODE HERE TO DESIGN THIS PAGE
+
     def create_menubar(self, parent):
         menubar = Menu(parent, bd=3, relief=RAISED, activebackground="#80B9DC")
 
@@ -86,6 +88,8 @@ class Validation(tk.Frame):
         label = tk.Label(self, text="Validation Page", font=('Times', '20'))
         label.pack(pady=0,padx=0)
 
+        ## ADD CODE HERE TO DESIGN THIS PAGE
+
     def create_menubar(self, parent):
         menubar = Menu(parent, bd=3, relief=RAISED, activebackground="#80B9DC")
 
@@ -115,4 +119,6 @@ class Validation(tk.Frame):
 if __name__ == "__main__":
     app = App()
     app.mainloop()
+
+    ## IF you find this useful >> Claps on Medium >> Stars on Github >> Subscription on youtube will help me
 
